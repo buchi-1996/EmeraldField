@@ -16,7 +16,17 @@ body{
 
 
 .left-table{
+    border: 1px solid green;
+}
+
+.left-table .gender,
+.present, .absent{
+    border-left: 1px solid green;
     border-right: 1px solid green;
+}
+
+.left-table .days{
+    border-left: 1px solid green;
 }
 
 .left-table td{
@@ -42,7 +52,6 @@ body{
 
 .left-col hr{
     margin-bottom: 0;
-    border-bottom: 1px solid #28a745;
 }
 
 .left-table th{
@@ -107,12 +116,16 @@ body{
 
 .left-list span{
     border-left: 1px solid #ccc;
-    padding: 5px 10px
+    width: 30px;
+    text-align: center;
+    padding: 5px 0px
 }
 
 .right-list span{
     border-left: 1px solid #ccc;
-    padding: 5px 10px
+    text-align: center;
+    width: 30px;
+    padding: 5px 0px
 }
 
 .right-list h5{
