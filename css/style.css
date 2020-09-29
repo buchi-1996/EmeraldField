@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.lt-heading, .rt-heading, .assessment-heading{
+    font-size: 14px;
+}
+
+
+.left-table{
+    border-right: 1px solid green;
+}
+
+.left-table td{
+    width: 100%;
+    text-transform: uppercase;
+    border-bottom: 1px solid #28a745 ;
+    font-size: 0.99em;
+    font-weight: 600;
+}
+
+.left-table td ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.left-table td ul li{
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.left-col hr{
+    margin-bottom: 0;
+    border-bottom: 1px solid #28a745;
+}
+
+.left-table th{
+    padding: 10px;
+    font-size: 0.8em;
+    border-right: 1px solid #28a745;
+    font-weight: 600;
+}
+
+.right-table th{
+    font-size: 0.7em;
+}
+
+.right-col hr{
+    margin-bottom: 0;
+    border-bottom: 1px solid #28a745;
+}
+
+.right-table td{
+    font-size: 0.9em;
+}
+
+.bottom-left-col{
+    margin-top: -70px;
+}
+
+.bottom-left-card td strong{
+    font-size: 0.99em;
+}
+
+.bottom-left-card td{
+    font-size: 0.9em;
+}
+
+.bottom-left-card th{
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.summary .left-list {
+    width: 18em;
+}
+
+.left-list .list-group-item{
+    padding: 0px 10px !important;
+}
+
+
+.summary .right-list {
+    width: 18em;
+}
+
+.right-list .list-group-item{
+    padding: 0px 10px !important;
+}
+
+.left-list h5{
+    font-size: 1em;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.left-list span{
+    border-left: 1px solid #ccc;
+    padding: 5px 10px
+}
+
+.right-list span{
+    border-left: 1px solid #ccc;
+    padding: 5px 10px
+}
+
+.right-list h5{
+    font-size: 1em;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 968px){
+    .left-col{
+        margin-bottom: 30px;
+        padding: 10px !important;
+    }
+
+    .right-col{
+        margin-bottom: 30px;
+        padding: 10px !important;
+    }
+
+    .bottom-left-col{
+        margin-bottom: 30px;
+        padding: 10px !important; 
+    }
+
+    .bottom-left-col h6{
+        text-align: center;
+    }
+
+    
+    .summary{
+        display: block !important;
+    }
+
+
+    .summary .left-list {
+        width: 100%;
+    }
+
+    .summary .right-list {
+        width: 100%;
+    }
+}
+
+
+
