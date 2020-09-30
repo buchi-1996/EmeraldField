@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+header, footer{
+    height: 60px;
+    background: linear-gradient(to right, #28a745, yellow);
+}
+
 body{
     font-family: "Nunito Sans", sans-serif;
 }
@@ -161,6 +166,8 @@ body{
     padding: 10px;
     color: #444;
 }
+
+
 
 @media screen and (max-width: 968px){
     .left-col{
