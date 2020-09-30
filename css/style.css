@@ -74,8 +74,12 @@ body{
     font-size: 0.9em;
 }
 
+.bottom-section{
+    margin-top: -50px;
+}
+
 .bottom-left-col{
-    margin-top: -70px;
+    margin-top: -24px;
 }
 
 .bottom-left-card td strong{
@@ -132,6 +136,30 @@ body{
     font-size: 1em;
     margin-top: 5px;
     font-weight: 600;
+}
+
+.bottom-right-table{
+    margin: 0;
+}
+
+.bottom-right-table td{
+    width: 20%;
+}
+
+.bottom-right-card .remarks-heading{
+    width: 100%;
+    background: #eee;
+    color: #28a745;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.remarks-box p{
+    font-weight: 300;
+    font-size: 0.9em;
+    padding: 10px;
+    color: #444;
 }
 
 @media screen and (max-width: 968px){
