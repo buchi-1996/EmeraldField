@@ -22,8 +22,6 @@ body{
 
 .left-table{
     border: 1px solid green;
-    margin-bottom: 0px;
-    
 }
 
 .left-table .gender,
@@ -68,10 +66,6 @@ body{
     font-weight: 600;
 }
 
-.right-table{
-    margin-bottom: 0px;
-}
-
 .right-table th{
     font-size: 0.7em;
 }
@@ -85,10 +79,6 @@ body{
     font-size: 0.9em;
 }
 
-
-.bottom-section{
-    margin-top: -50px;
-}
 
 .bottom-left-col{
     margin-top: -24px;
@@ -181,7 +171,6 @@ body{
         margin-bottom: 30px;
         padding: 10px !important;
     }
-
 
     .right-col{
         margin-bottom: 30px;
